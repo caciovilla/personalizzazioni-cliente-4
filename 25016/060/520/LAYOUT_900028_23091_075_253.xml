@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layout id="253" versione="1" attivo="true" codiceDocumento="075" hostVersioning="storageLayout" pathBase="layout/900028/23091/075/253" enteGestore="900028" ente="23091" tipoLayout="CARTELLA" codiceImposizione="TARES">
+    <!-- Template Avviso della Cartella-->
+    <TemplateDocumento tipoElaborazione="XSLT" pathLink="layout/900028/23091/075/253">cartella_075_accertamento_TARES_Verona_v3.xslt</TemplateDocumento>
+     
+     <!-- Produzione F24 mediante template Modello.pdf-->
+    <TitoloPagamento tipoTitolo="S_24" tipoElaborazione="PDF-FORM" formato="A4" primario="true" pathLink="/" composizioneFoglio="0" >F24semplificatoModelloGray.pdf</TitoloPagamento>
+    
+     <!-- Produzione F24 mediante PostScript e template XSLT-->
+    <TitoloPagamento tipoTitolo="S_24" tipoElaborazione="PS-XSLT" formato="A4" primario="false" pathLink="layout/900028/23091/077/119" composizioneFoglio="0" >F24SNR_FR.xslt</TitoloPagamento>
+    
+    <!-- Produzione Bollettino mediante PostScript e template XSLT (bollettino + informative)-->
+    <TitoloPagamento tipoTitolo="CCP" tipoElaborazione="PS-XSLT" formato="A4" primario="false" pathLink="layout/900028/23091/077/119" composizioneFoglio="0" >BollettinoCoattivoSanzioniCDSIBAN_2_XMLv3.xslt</TitoloPagamento>
+    
+    <!-- Produzione Bollettino mediante PostScript e template XSLT (bollettino senza informative con modalità BollettinoDoppio-->
+    <TitoloPagamento tipoTitolo="CCP" tipoElaborazione="PS-XSLT" formato="A4" primario="false" pathLink="layout/900028/23091/077/119" composizioneFoglio="1" >BollettinoSingoloIBANTD674_EstrattoConto_XMLv3.xslt</TitoloPagamento> 
+    
+    <!-- Produzione Bollettino mediante PostScript e template XSLT (bollettino senza informative con modalità Bollettino+AllegatoPdf-->
+    <TitoloPagamento tipoTitolo="CCP" tipoElaborazione="PS-XSLT" formato="A4" primario="false" pathLink="layout/900028/23091/077/119" composizioneFoglio="2" idAllegato="3">BollettinoSingoloIBANTD674_EstrattoConto_XMLv3.xslt</TitoloPagamento> 
+    <Allegati>
+        <Allegato id="3" tipoAllegato="informativaBollettino" pathLink="layout/900028/23091/077/119">informativaBollettino.pdf</Allegato>
+        <Allegato>allegato1.pdf</Allegato>
+        <Allegato>logo.pdf</Allegato>
+    </Allegati> 
+</Layout>
+
+
+
