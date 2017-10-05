@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layout id="447" versione="1" attivo="true" codiceDocumento="075" hostVersioning="storageLayout" pathBase="layout/900028/23091/075/447" enteGestore="900028" ente="23091" tipoLayout="CARTELLA" codiceImposizione="TARES">
+    
+    <!-- Template Avviso della Cartella-->
+    <TemplateDocumento tipoElaborazione="XSLT" pathLink="layout/900028/23091/075/447">cartella_075_accertamento_TARES_Verona-NOTIFICA.xslt</TemplateDocumento>
+     
+     <!-- Produzione F24 mediante template Modello.pdf-->
+    <TitoloPagamento tipoTitolo="S_24" tipoElaborazione="PDF-FORM" formato="A4" primario="true" pathLink="/" composizioneFoglio="0" >F24semplificatoModelloGray.pdf</TitoloPagamento>
+    
+</Layout>
+
+
+
