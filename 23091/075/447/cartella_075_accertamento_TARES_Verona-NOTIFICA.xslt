@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:ext="xalan://it.sintax.util.xml.XSLExtensions">
 	<xsl:key name="AnniInclusi"
-		match="/Cartella/Articoli/Articolo[@codiceServizio='18']/Anno/text()"
+		match="/Cartella/Articoli/Articolo[@codiceServizio='17']/Anno/text()"
 		use="." />
 
 	<xsl:decimal-format name="euro" decimal-separator=","
